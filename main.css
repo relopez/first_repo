@@ -1,7 +1,6 @@
 header {
-	border:red solid;
+	border:solid;
     height:100px;
-    background: #f79676;
 }
 
 body {
@@ -11,9 +10,20 @@ body {
     }
 
 footer {
-      border: solid blue;
+      border: solid;
       height: 50px;
     }
+
+main {
+	background: #00c1fc; /* Old browsers */
+background: -moz-linear-gradient(top,  #00c1fc 0%, #07ea97 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#00c1fc), color-stop(100%,#07ea97)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #00c1fc 0%,#07ea97 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #00c1fc 0%,#07ea97 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #00c1fc 0%,#07ea97 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #00c1fc 0%,#07ea97 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00c1fc', endColorstr='#07ea97',GradientType=0 ); /* IE6-9 */
+}
 
 a {
 	color:#3498db;
