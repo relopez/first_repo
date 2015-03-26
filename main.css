@@ -12,15 +12,7 @@ body {
 
 footer {
       border: 1px solid;
-      height: 100px;
-      background: #feffff; /* Old browsers */
-      background: -moz-linear-gradient(top,  #feffff 0%, #ddf1f9 35%, #a0d8ef 100%); /* FF3.6+ */
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feffff), color-stop(35%,#ddf1f9), color-stop(100%,#a0d8ef)); /* Chrome,Safari4+ */
-      background: -webkit-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Chrome10+,Safari5.1+ */
-      background: -o-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* Opera 11.10+ */
-      background: -ms-linear-gradient(top,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* IE10+ */
-      background: linear-gradient(to bottom,  #feffff 0%,#ddf1f9 35%,#a0d8ef 100%); /* W3C */
-      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a0d8ef',GradientType=0 ); /* IE6-9 */
+      text-align: center;
     }
 
 footer strong {
@@ -56,8 +48,13 @@ td {
       padding-left: 8px;
 }
 
+ul {
+    list-style-type: none;
+}
+
 li {
-  display: inline;
+    display: inline;
+    margin: 10px;
 }
 
 .left {
@@ -70,10 +67,13 @@ li {
   margin: 5px;
 }
 
+/*
 .clear {
   display: block;
   clear: both;
-}
+} 
+
+Depois de divs floating left/right */
 
 .container {
   position: relative;
@@ -90,5 +90,30 @@ li {
   position: fixed;
   /*position: absolute;
   right: 0px;*/
-
 }
+
+.feed a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-top {
+    text-align: center;
+}
+    
+a:hover.link-header {
+    text-decoration: none;
+    color: red;
+}
+
+/*
+  menu-top a:hover {
+    text-decoration: none;
+    color: red;
+
+  a:hover.menu-top {
+    text-decoration: none;
+    color: red;
+} 
+
+POR QUE NÃO FUNCIONA?? */
