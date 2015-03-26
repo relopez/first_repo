@@ -1,6 +1,7 @@
 header {
-	border: 1px solid;
-    height:100px;
+	   border: 1px solid;
+     height:100px;
+     text-align: center;
 }
 
 body {
@@ -24,7 +25,7 @@ main {
 }
 
 a {
-    	color:black;
+    	color:red;
     	text-decoration: none;
 }
 
@@ -55,6 +56,7 @@ ul {
 li {
     display: inline;
     margin: 10px;
+    border-bottom: 1px solid #999999;
 }
 
 .left {
@@ -97,10 +99,19 @@ Depois de divs floating left/right */
   color: white;
 }
 
+.feed a {
+  color: black;
+}
+
 .menu-top {
     text-align: center;
 }
     
+a.link-header {
+    text-decoration: none;
+    color: black;
+}
+
 a:hover.link-header {
     text-decoration: none;
     color: red;
