@@ -1,53 +1,52 @@
 header {
-	   border: 1px solid;
-     height:100px;
-     text-align: center;
+    border: 1px solid;
+    height:100px;
+    text-align: center;
 }
 
 body {
-      border: 1px solid;
-      width: 90%;
-      margin: 0 auto 0 auto;
-      background: url(img/abstract.png);
+    border: 1px solid;
+    width: 90%;
+    margin: 0 auto 0 auto;
+    background: url(img/abstract.png);
     }
 
 footer {
-      border: 1px solid;
-      text-align: center;
+    border: 1px solid;
+    text-align: center;
     }
 
 footer strong {
-      color: red;
-}
-
-main {
-      height: 1000px;
+    color: red;
 }
 
 a {
-    	color:red;
-    	text-decoration: none;
+  	color:red;
+  	text-decoration: none;
 }
 
 a:hover {
-    	color: blue;
-    	text-decoration: underline;
+  	color: red;
+  	text-decoration: underline;
 }
 
 #id_1 {
-  color: orange;
+    color: orange;
 }
 
 table {
-      border: 3px black solid;
-      width: 350px;
-      padding: 10px;
+    border: 3px black solid;
+    width: 350px;
+    padding: 10px;
 }
 
 td {
-      padding-top: 8px;
-      padding-left: 8px;
+    padding-top: 8px;
+    padding-left: 8px;
+    border: 1px black solid;
+    /*vertical-align: middle; POR QUE NÃO FUNCIONA?? */
 }
+
 
 ul {
     list-style-type: none;
@@ -60,47 +59,47 @@ li {
 }
 
 .left {
-  float: left;
-  margin: 5px;
+    float: left;
+    margin: 5px;
 }
 
 .right {
-  float: right;
-  margin: 5px;
+    float: right;
+    margin: 5px;
 }
 
 /*
 .clear {
-  display: block;
-  clear: both;
+    display: block;
+    clear: both;
 } 
 
 Depois de divs floating left/right */
 
 .container {
-  position: relative;
-  width: 100px;
+    position: relative;
+    width: 100px;
 }
 
 .feed {
-  background-color: red;
-  border: 1px solid black;
-  padding-top: 5px;
-  width: 100px;
-  height: 20px;
-  text-align: center;
-  position: fixed;
-  /*position: absolute;
-  right: 0px;*/
+    background-color: red;
+    border: 1px solid black;
+    padding-top: 5px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    position: fixed;
+    /*position: absolute;
+    right: 0px;*/
 }
 
 .feed a:hover {
-  text-decoration: none;
-  color: white;
+    text-decoration: none;
+    color: white;
 }
 
 .feed a {
-  color: black;
+    color: black;
 }
 
 .menu-top {
@@ -128,3 +127,17 @@ a:hover.link-header {
 } 
 
 POR QUE NÃO FUNCIONA?? */
+
+.content {
+    background-color: #BBB;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.message {
+  width: 190%;
+  margin-top: 1px;
+}
