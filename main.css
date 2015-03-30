@@ -8,7 +8,7 @@ header {
 
 body {
     border: 1px solid;
-    width: 90%;
+    width: 70%;
     margin: 0 auto 0 auto;
     background: url(img/abstract.png);
     }
@@ -18,7 +18,6 @@ footer {
     height:80px;
     text-align: center;
     padding-top: 20px;
-    margin-bottom: 30px;
     }
 
 footer strong {
@@ -46,11 +45,12 @@ a:hover.link-header {
 }
 
 /*
-  menu-top a:hover {
+menu-top a:hover {
     text-decoration: none;
     color: red;
+}
 
-  a:hover.menu-top {
+a:hover.menu-top {
     text-decoration: none;
     color: red;
 } 
@@ -137,7 +137,6 @@ Depois de divs floating left/right */
     width: 600px;
     margin: 0 auto 20px auto;
     padding: 10px;
-    /*border: 1px solid blue;*/
 }
 
 .message {
