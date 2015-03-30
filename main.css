@@ -1,7 +1,9 @@
 header {
-    border: 1px solid;
-    height:100px;
+    border: 1px solid orange;
+    height:80px;
     text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
 }
 
 body {
@@ -12,8 +14,11 @@ body {
     }
 
 footer {
-    border: 1px solid;
+    border: 1px solid orange;
+    height:80px;
     text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
     }
 
 footer strong {
@@ -30,20 +35,40 @@ a:hover {
   	text-decoration: underline;
 }
 
+a.link-header {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover.link-header {
+    text-decoration: none;
+    color: red;
+}
+
+/*
+  menu-top a:hover {
+    text-decoration: none;
+    color: red;
+
+  a:hover.menu-top {
+    text-decoration: none;
+    color: red;
+} 
+
+POR QUE NÃO FUNCIONA?? */
+
 #id_1 {
     color: orange;
 }
 
 table {
-    border: 3px black solid;
     width: 350px;
-    padding: 10px;
+    background-color: #BBB;
 }
 
 td {
     padding-top: 8px;
     padding-left: 8px;
-    border: 1px black solid;
     /*vertical-align: middle; POR QUE NÃO FUNCIONA?? */
 }
 
@@ -76,9 +101,10 @@ li {
 
 Depois de divs floating left/right */
 
-.container {
+.container_feed {
     position: relative;
     width: 100px;
+
 }
 
 .feed {
@@ -105,39 +131,39 @@ Depois de divs floating left/right */
 .menu-top {
     text-align: center;
 }
-    
-a.link-header {
-    text-decoration: none;
-    color: black;
-}
 
-a:hover.link-header {
-    text-decoration: none;
-    color: red;
-}
-
-/*
-  menu-top a:hover {
-    text-decoration: none;
-    color: red;
-
-  a:hover.menu-top {
-    text-decoration: none;
-    color: red;
-} 
-
-POR QUE NÃO FUNCIONA?? */
-
-.content {
+.content_index {
     background-color: #BBB;
     width: 600px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
     padding: 10px;
+    /*border: 1px solid blue;*/
 }
 
 .message {
-  width: 190%;
+  width: 175%;
   margin-top: 1px;
+}
+
+.container_poll {
+    margin: 40px auto 40px auto;         
+    padding: 20px;
+    width: 500px;
+    background-color: #BBB;
+}
+
+.considerations {
+    width: 500px;
+}
+
+.box_links {
+    margin: 50px auto 50px auto;
+    width: 300px;
+    padding: 30px;
+    background-color: #CCC;
+}
+
+.container_contato {
+    margin: 50px auto 50px auto;
+    width: 500px;
 }
